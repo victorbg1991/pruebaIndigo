@@ -1,3 +1,4 @@
+import java.nio.channels.Pipe.SourceChannel;
 import java.util.Scanner;
 
 public class EjercicioLogica {
@@ -26,16 +27,19 @@ public class EjercicioLogica {
 						System.out.print("Ingrese elementos:");
 						vec[i]=entradaK.nextInt();
 					}
-					
-					
+					int prod = 1;
+			        for(int f=0;f<vec.length;f++) {
+			            prod=prod*vec[f];
+			        }
+			        System.out.println("El Producto de los elementos es:"+prod);
 					t = t - 1;
 				}else{
-					System.out.print("otro");
+					System.out.print("El número que ingresó no está en el rago");
 				}
 				
 			}
 		}else{
-			System.out.print("El número que ingresó no esta en el rago");
+			System.out.print("El número que ingresó no está en el rago");
 		}
 	}
 }
