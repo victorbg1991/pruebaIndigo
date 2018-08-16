@@ -28,7 +28,7 @@ public class EjercicioLogica {
 						vec[i]=entradaK.nextInt();
 					}
 					int prod = 1;
-			        for(int f=0;f<vec.length;f++) {
+			        for(int f=0;f<n;f++) {
 			            prod=prod*vec[f];
 			        }
 			        System.out.println("El Producto de los elementos es:"+prod);
