@@ -13,6 +13,7 @@ public class palindromo {
 		System.out.println("\n Digite un numero:\n");
         numero=num.nextInt();
 		
+        if(numero>=1 && numero<1000000){
         boolean b = false;
         while(b!=true){
 		faltante=numero;
@@ -33,10 +34,14 @@ public class palindromo {
         b=true;
         
 		}else{
-       
+			
 		b=false;
+		
 		}
 	    numero--;
+        }
+        }else{
+        	System.out.print("Ingrese un número menor de 6 digitos");
         }
 		
 		}
