@@ -41,6 +41,7 @@ public class palindromo {
 				System.out.print(numero+"\n");
 				System.out.print(mul+" X ");
 				System.out.print(prod);
+				numeroPalindromo();
 				break;
 			}else{
 				
