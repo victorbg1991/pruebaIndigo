@@ -43,8 +43,8 @@ public class palindromo {
 	
 	public static void main(String args []) {
 		
-		palindromo capicua=new palindromo();
-		capicua.numeroPalindromo();
+		palindromo palindromo=new palindromo();
+		palindromo.numeroPalindromo();
 		
 	}
 
