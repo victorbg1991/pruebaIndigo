@@ -10,7 +10,7 @@ public class palindromo {
 	
 		Scanner num=new Scanner(System.in);
 		
-		System.out.println("\n Digite un numero:\n");
+		System.out.println("\n Digite un número:\n");
         numero=num.nextInt();
 		
         if(numero>=101101 && numero<1000000){
@@ -47,8 +47,6 @@ public class palindromo {
 				b=false;
 			}
 		}
-        System.out.println("\n \n" +numero);
-        
 		}else{
 			
 		b=false;
