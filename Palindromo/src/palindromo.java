@@ -13,7 +13,7 @@ public class palindromo {
 		System.out.println("\n Digite un numero:\n");
         numero=num.nextInt();
 		
-        if(numero>=1 && numero<1000000){
+        if(numero>=101101 && numero<1000000){
         boolean b = false;
         while(b!=true){
 		faltante=numero;
@@ -29,9 +29,25 @@ public class palindromo {
 		}
 		
 	    if(numeroInvertido==numero){
-			
+		int x=100;
+		int prod = 0;
+		int mod = 1;
+		for(int i=100;i<999;i++){
+			mod=numero%i;
+			prod=numero/i;
+			if(mod==0 && prod<=999){
+				b=true;
+				int mul=numero/prod;
+				System.out.print(numero+"\n");
+				System.out.print(mul+" X ");
+				System.out.print(prod);
+				break;
+			}else{
+				
+				b=false;
+			}
+		}
         System.out.println("\n \n" +numero);
-        b=true;
         
 		}else{
 			
