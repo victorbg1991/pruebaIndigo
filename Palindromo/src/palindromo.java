@@ -57,6 +57,7 @@ public class palindromo {
         }
         }else{
         	System.out.print("Ingrese un número menor de 6 digitos");
+			numeroPalindromo();
         }
 		
 		}
